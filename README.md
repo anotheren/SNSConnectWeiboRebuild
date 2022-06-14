@@ -3,7 +3,7 @@
 ## What's it?
 
 * It's part of [SNSConnect](https://github.com/anotheren/SNSConnect) Project.
-* Rebuild `libWechat.a` to `SNSConnectWeiboRebuild.xcframework`.
+* Rebuild `libWeiboSDK.a` to `SNSConnectWeiboRebuild.xcframework`.
 * Modules support and easy for Swift Package Manager to use.
 * Support for ios-arm64/ios-arm64_x86_64-simulator.
 * Require iOS 13+
