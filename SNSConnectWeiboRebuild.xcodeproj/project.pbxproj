@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A026A9802858CB8F00C86FB3 /* SNSConnectWeiboRebuild.h in Headers */ = {isa = PBXBuildFile; fileRef = A026A97F2858CB8F00C86FB3 /* SNSConnectWeiboRebuild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A026A98B2858CBBF00C86FB3 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A026A9872858CBBF00C86FB3 /* libWeiboSDK.a */; };
+		A026A98C2858CBBF00C86FB3 /* WeiboSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A026A9882858CBBF00C86FB3 /* WeiboSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A026A98D2858CBBF00C86FB3 /* WBHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A026A9892858CBBF00C86FB3 /* WBHttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A026A98E2858CBBF00C86FB3 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A026A98A2858CBBF00C86FB3 /* WeiboSDK.bundle */; };
+		A026A9902858CC4600C86FB3 /* SNSConnectWeiboRebuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = A026A98F2858CC4600C86FB3 /* SNSConnectWeiboRebuild.swift */; };
+		A026A9932858CD0900C86FB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A026A9922858CD0900C86FB3 /* CoreGraphics.framework */; };
+		A026A9952858CD1000C86FB3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A026A9942858CD1000C86FB3 /* CoreTelephony.framework */; };
+		A026A9972858CD1600C86FB3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A026A9962858CD1600C86FB3 /* SystemConfiguration.framework */; };
+		A026A9992858CD1E00C86FB3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A026A9982858CD1E00C86FB3 /* ImageIO.framework */; };
+		A026A99B2858CD2A00C86FB3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A026A99A2858CD2A00C86FB3 /* CoreText.framework */; };
+		A026A99D2858CD2E00C86FB3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A026A99C2858CD2E00C86FB3 /* Security.framework */; };
+		A026A99F2858CD3600C86FB3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A026A99E2858CD3600C86FB3 /* WebKit.framework */; };
+		A026A9A32858D15C00C86FB3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A026A9A22858D15C00C86FB3 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A026A97C2858CB8F00C86FB3 /* SNSConnectWeiboRebuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNSConnectWeiboRebuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A026A97F2858CB8F00C86FB3 /* SNSConnectWeiboRebuild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNSConnectWeiboRebuild.h; sourceTree = "<group>"; };
+		A026A9872858CBBF00C86FB3 /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		A026A9882858CBBF00C86FB3 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		A026A9892858CBBF00C86FB3 /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
+		A026A98A2858CBBF00C86FB3 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		A026A98F2858CC4600C86FB3 /* SNSConnectWeiboRebuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSConnectWeiboRebuild.swift; sourceTree = "<group>"; };
+		A026A9922858CD0900C86FB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A026A9942858CD1000C86FB3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A026A9962858CD1600C86FB3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A026A9982858CD1E00C86FB3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A026A99A2858CD2A00C86FB3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A026A99C2858CD2E00C86FB3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A026A99E2858CD3600C86FB3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A026A9A02858CD6D00C86FB3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A026A9A12858CD7400C86FB3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A026A9A22858D15C00C86FB3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A026A9792858CB8F00C86FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A026A9932858CD0900C86FB3 /* CoreGraphics.framework in Frameworks */,
+				A026A9952858CD1000C86FB3 /* CoreTelephony.framework in Frameworks */,
+				A026A99F2858CD3600C86FB3 /* WebKit.framework in Frameworks */,
+				A026A99B2858CD2A00C86FB3 /* CoreText.framework in Frameworks */,
+				A026A9972858CD1600C86FB3 /* SystemConfiguration.framework in Frameworks */,
+				A026A99D2858CD2E00C86FB3 /* Security.framework in Frameworks */,
+				A026A98B2858CBBF00C86FB3 /* libWeiboSDK.a in Frameworks */,
+				A026A9992858CD1E00C86FB3 /* ImageIO.framework in Frameworks */,
+				A026A9A32858D15C00C86FB3 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A026A9722858CB8F00C86FB3 = {
+			isa = PBXGroup;
+			children = (
+				A026A9862858CBA600C86FB3 /* Library */,
+				A026A97E2858CB8F00C86FB3 /* SNSConnectWeiboRebuild */,
+				A026A97D2858CB8F00C86FB3 /* Products */,
+				A026A9912858CD0900C86FB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A026A97D2858CB8F00C86FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A026A97C2858CB8F00C86FB3 /* SNSConnectWeiboRebuild.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A026A97E2858CB8F00C86FB3 /* SNSConnectWeiboRebuild */ = {
+			isa = PBXGroup;
+			children = (
+				A026A97F2858CB8F00C86FB3 /* SNSConnectWeiboRebuild.h */,
+				A026A98F2858CC4600C86FB3 /* SNSConnectWeiboRebuild.swift */,
+			);
+			path = SNSConnectWeiboRebuild;
+			sourceTree = "<group>";
+		};
+		A026A9862858CBA600C86FB3 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A026A9872858CBBF00C86FB3 /* libWeiboSDK.a */,
+				A026A9892858CBBF00C86FB3 /* WBHttpRequest.h */,
+				A026A98A2858CBBF00C86FB3 /* WeiboSDK.bundle */,
+				A026A9882858CBBF00C86FB3 /* WeiboSDK.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		A026A9912858CD0900C86FB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A026A9A12858CD7400C86FB3 /* libz.tbd */,
+				A026A9A02858CD6D00C86FB3 /* libsqlite3.tbd */,
+				A026A99E2858CD3600C86FB3 /* WebKit.framework */,
+				A026A99C2858CD2E00C86FB3 /* Security.framework */,
+				A026A9982858CD1E00C86FB3 /* ImageIO.framework */,
+				A026A99A2858CD2A00C86FB3 /* CoreText.framework */,
+				A026A9A22858D15C00C86FB3 /* QuartzCore.framework */,
+				A026A9922858CD0900C86FB3 /* CoreGraphics.framework */,
+				A026A9942858CD1000C86FB3 /* CoreTelephony.framework */,
+				A026A9962858CD1600C86FB3 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A026A9772858CB8F00C86FB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A026A98D2858CBBF00C86FB3 /* WBHttpRequest.h in Headers */,
+				A026A98C2858CBBF00C86FB3 /* WeiboSDK.h in Headers */,
+				A026A9802858CB8F00C86FB3 /* SNSConnectWeiboRebuild.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A026A97B2858CB8F00C86FB3 /* SNSConnectWeiboRebuild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A026A9832858CB8F00C86FB3 /* Build configuration list for PBXNativeTarget "SNSConnectWeiboRebuild" */;
+			buildPhases = (
+				A026A9772858CB8F00C86FB3 /* Headers */,
+				A026A9782858CB8F00C86FB3 /* Sources */,
+				A026A9792858CB8F00C86FB3 /* Frameworks */,
+				A026A97A2858CB8F00C86FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNSConnectWeiboRebuild;
+			productName = SNSConnectWeiboRebuild;
+			productReference = A026A97C2858CB8F00C86FB3 /* SNSConnectWeiboRebuild.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A026A9732858CB8F00C86FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = anotheren.com;
+				TargetAttributes = {
+					A026A97B2858CB8F00C86FB3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = A026A9762858CB8F00C86FB3 /* Build configuration list for PBXProject "SNSConnectWeiboRebuild" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A026A9722858CB8F00C86FB3;
+			productRefGroup = A026A97D2858CB8F00C86FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A026A97B2858CB8F00C86FB3 /* SNSConnectWeiboRebuild */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A026A97A2858CB8F00C86FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A026A98E2858CBBF00C86FB3 /* WeiboSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A026A9782858CB8F00C86FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A026A9902858CC4600C86FB3 /* SNSConnectWeiboRebuild.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A026A9812858CB8F00C86FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A026A9822858CB8F00C86FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A026A9842858CB8F00C86FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.SNSConnectWeiboRebuild;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A026A9852858CB8F00C86FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.SNSConnectWeiboRebuild;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A026A9762858CB8F00C86FB3 /* Build configuration list for PBXProject "SNSConnectWeiboRebuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A026A9812858CB8F00C86FB3 /* Debug */,
+				A026A9822858CB8F00C86FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A026A9832858CB8F00C86FB3 /* Build configuration list for PBXNativeTarget "SNSConnectWeiboRebuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A026A9842858CB8F00C86FB3 /* Debug */,
+				A026A9852858CB8F00C86FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A026A9732858CB8F00C86FB3 /* Project object */;
+}
